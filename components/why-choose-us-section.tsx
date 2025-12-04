@@ -64,7 +64,7 @@ export default function WhyChooseUsSection() {
                 "پرداخت پس از انجام کار",
               ].map((benefit, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0">
+                  <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
                     <Check className="w-4 h-4 text-accent" />
                   </div>
                   <span className="text-muted-foreground">{benefit}</span>
